@@ -1,0 +1,29 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 4 for port 'mux4_output' [C:/Users/kenge/OneDrive/Masaüstü/Lecture Notes - 3/Bilgisayar Mimarisi ve Organizasyonu/Ödev/210601077_MehmetAli_Kenger_ALU/ALU/ALU.srcs/sim_1/new/testbench.sv:62]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 4 for port 'a' [C:/Users/kenge/OneDrive/Masaüstü/Lecture Notes - 3/Bilgisayar Mimarisi ve Organizasyonu/Ödev/210601077_MehmetAli_Kenger_ALU/ALU/ALU.srcs/sim_1/new/testbench.sv:80]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 4 for port 'b' [C:/Users/kenge/OneDrive/Masaüstü/Lecture Notes - 3/Bilgisayar Mimarisi ve Organizasyonu/Ödev/210601077_MehmetAli_Kenger_ALU/ALU/ALU.srcs/sim_1/new/testbench.sv:81]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 4 for port 'sum' [C:/Users/kenge/OneDrive/Masaüstü/Lecture Notes - 3/Bilgisayar Mimarisi ve Organizasyonu/Ödev/210601077_MehmetAli_Kenger_ALU/ALU/ALU.srcs/sim_1/new/testbench.sv:82]
+WARNING: [VRFC 10-3823] variable 'allZero' might have multiple concurrent drivers [C:/Users/kenge/OneDrive/Masaüstü/Lecture Notes - 3/Bilgisayar Mimarisi ve Organizasyonu/Ödev/210601077_MehmetAli_Kenger_ALU/ALU/ALU.srcs/sim_1/new/testbench.sv:106]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.fulladder
+Compiling module xil_defaultlib.NbitFulladder
+Compiling module xil_defaultlib.and_module
+Compiling module xil_defaultlib.or_module
+Compiling module xil_defaultlib.mux4
+Compiling module xil_defaultlib.check_one
+Compiling module xil_defaultlib.isNegative
+Compiling module xil_defaultlib.checkCarry
+Compiling module xil_defaultlib.overflow_control
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
